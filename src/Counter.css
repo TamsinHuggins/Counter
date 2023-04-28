@@ -1,0 +1,27 @@
+.Counter {
+  background-color: mediumaquamarine;
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 20px;
+  background-color: green; /*for compatibility with older browsers*/
+  background-image: linear-gradient(mediumaquamarine, rgb(224, 241, 236));
+  border: 1px rgb(72, 141, 144) solid;
+}
+
+.Counter__button {
+  font-size: large;
+  height: 40px;
+  width: 60px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px rgb(72, 141, 144) solid;
+  background-image: linear-gradient(rgb(203, 206, 206), rgb(235, 235, 235));
+}
+
+.Counter__text {
+  margin-top: 30px;
+  font-size: 50px;
+}
